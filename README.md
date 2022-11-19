@@ -5,6 +5,9 @@
 
 This project has been done under the IBM Nalaiya Thiran initiative. It is a university admit eligibiliy predictor. It uses a Kaggle dataset with a Regression Model to achieve the prediction of whether or not a student will be admitted into a university for Graduation School. The model has been deployed on IBM Cloud using IBM Watson Studio. 
 
+<h4> Demo Link </h4>
+<a href="https://drive.google.com/file/d/1lIGmWleEVCf6ryBXMGOAVYleRx3AIySU/view?usp=sharing">Demo here</a>
+
 <h4>Dataset: </h4>
 
 > The dataset used has been linked here
