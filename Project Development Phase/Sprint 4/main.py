@@ -9,7 +9,6 @@ import requests
 #db connection
 local_server = True
 app = Flask(__name__)
-app.secret_key = "athirai"
 
 #326, 110, 2, 3.5, 4, 9.23, 1
 
