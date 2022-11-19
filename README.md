@@ -12,11 +12,14 @@ This project has been done under the IBM Nalaiya Thiran initiative. It is a univ
 
 <h4> The Team: </h4>
 
+<p>
 The Team Members are: 
-      Team Lead : Dhivyashri R 
-      Team Member 1 : Athirai S 
-      Team Member 2 : Kavya S 
-      Team Member 3 : Shrishti P 
+<br>
+      Team Lead : Dhivyashri R <br>
+      Team Member 1 : Athirai S <br>
+      Team Member 2 : Kavya S <br>
+      Team Member 3 : Shrishti P <br>
+</p>
 
 
 
