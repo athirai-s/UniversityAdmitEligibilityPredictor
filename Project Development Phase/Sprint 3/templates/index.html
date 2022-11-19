@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content=
+    "width=device-width, initial-scale=1.0">
+  <title>
+    University Admit Eligibility Predictor
+  </title>
+
+  <style>
+
+    /* Styling the Body element i.e. Color,
+    Font, Alignment */
+    body {
+      background-color: #3eb5b3;
+      font-family: Verdana;
+      text-align: center;
+    }
+
+    /* Styling the Form (Color, Padding, Shadow) */
+    form {
+      background-color: #fff;
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px 20px;
+      box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Styling form-control Class */
+    .form-control {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+
+    /* Styling form-control Label */
+    .form-control label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    /* Styling form-control input,
+    select, textarea */
+    .form-control input,
+    .form-control select,
+    .form-control textarea {
+      border: 1px solid #777;
+      border-radius: 2px;
+      font-family: inherit;
+      padding: 10px;
+      display: block;
+      width: 95%;
+    }
+
+    /* Styling form-control Radio
+    button and Checkbox */
+    .form-control input[type="radio"],
+    .form-control input[type="checkbox"] {
+      display: inline-block;
+      width: auto;
+    }
+
+    /* Styling Button */
+    button {
+      background-color: #05c46b;
+      border: 1px solid #777;
+      border-radius: 2px;
+      font-family: inherit;
+      font-size: 21px;
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>University Admit Eligibility Predictor </h1>
+  <div id="id01">
+  <!-- Create Form -->
+  <form id="form" action="/" method="POST">
+
+    <!-- Details -->
+    <div class="form-control">
+      <label for="gre" id="label-gre">
+        GRE Score
+      </label>
+
+      <!-- Input Type Text -->
+      <input type="text"
+        id="gre" name = "gre"
+        placeholder="Enter your GRE Score" />
+    </div>
+
+     <div class="form-control">
+      <label for="toefl" id="label-toefl">
+        TOEFL Score
+      </label>
+
+      <!-- Input Type Text -->
+      <input type="text"
+        id="toefl" name = "toefl"
+        placeholder="Enter your TOEFL Score" />
+    </div>
+
+     <div class="form-control">
+      <label for="univ" id="label-univ">
+        University Rating
+      </label>
+
+      <!-- Input Type Text -->
+      <input type="text"
+        id="univ" name = "univ"
+        placeholder="Enter the University Rating" />
+    </div>
+
+     <div class="form-control">
+      <label for="sop" id="label-sop">
+        SOP
+      </label>
+
+      <!-- Input Type Text -->
+      <input type="text"
+        id="sop" name = "sop"
+        placeholder="SOP" />
+    </div>
+    
+     <div class="form-control">
+      <label for="lor" id="label-lor">
+        LOR
+      </label>
+
+      <!-- Input Type Text -->
+      <input type="text"
+        id="lor" name = "lor"
+        placeholder="LOR" />
+    </div>
+
+     <div class="form-control">
+      <label for="cgpa" id="label-cgpa">
+        CGPA
+      </label>
+
+      <!-- Input Type Text -->
+      <input type="text"
+        id="cgpa" name = "cgpa"
+        placeholder="Enter your CGPA" />
+    </div>
+
+     <div class="form-control">
+      <label for="research" id="label-research">
+        Research
+      </label>
+
+      <!-- Input Type Text -->
+      <input type="text"
+        id="research" name ="research"
+        placeholder="Research" />
+    </div>
+
+    <button type="submit" value="submit">
+      Submit
+    </button>
+  </form>
+</div>
+
+           <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+
+            </script>
+
+</body>
+
+</html>
