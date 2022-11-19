@@ -6,10 +6,6 @@ from flask_login import login_user,logout_user,login_manager,LoginManager
 from flask_login import login_required,current_user
 import requests
 
-#db connection
-local_server = True
-app = Flask(__name__)
-
 #326, 110, 2, 3.5, 4, 9.23, 1
 
 @app.route('/',methods=['POST','GET'])
@@ -29,7 +25,6 @@ def homepage():
 
 		header = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + mltoken}
 
-# NOTE: manually define and pass the array(s) of values to be scored in the next line
 		payload_scoring = {"input_data": [{"field": [["GRE Score","TOEFL Score","University Rating","SOP","LOR ","CGPA", "Research"]], "values": [[gre,toefl,univ,sop,lor,cgpa,research]]}]}
 
 		response_scoring = requests.post('https://us-south.ml.cloud.ibm.com/ml/v4/deployments/1b71fd07-9daf-42eb-a620-453452c7e5a7/predictions?version=2022-11-18', json=payload_scoring,
