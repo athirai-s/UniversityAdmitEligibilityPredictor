@@ -18,10 +18,10 @@ This project has been done under the IBM Nalaiya Thiran initiative. It is a univ
 <p>
 The Team Members are: 
 <br>
-      Team Lead : Dhivyashri R <br>
-      Team Member 1 : Athirai S <br>
-      Team Member 2 : Kavya S <br>
-      Team Member 3 : Shrishti P <br>
+      Team Lead : Dhivyashri Ramesh <br>
+      Team Member 1 : Athirai Shanmugam <br>
+      Team Member 2 : Kavya Sridhar <br>
+      Team Member 3 : Shrishti Padmanabhan <br>
 </p>
 
 <h4> Link </h4>
